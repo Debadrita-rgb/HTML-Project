@@ -1,0 +1,45 @@
+.section-background{
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	text-transform: uppercase;
+	background:url('../images/section_head.jpg');
+	text-align: center;
+	background-size: cover;
+	height:293px;
+	width:100%;
+}
+.page-header{
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	border-bottom: none;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    font-size: 34px;
+	text-shadow: #006  2px 2px;
+}
+.breadcrumb trip{
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.breadcrumb .active{
+	color: #fff;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "\f3d3";
+    font-family: "ionicons";
+}
+.breadcrumb a{
+	color: #fff;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 5px;
+}
+.breadcrumb a:hover{
+	color: #fff;
+	border: 1px solid #fff;
+}
